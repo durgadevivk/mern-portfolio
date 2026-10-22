@@ -1,20 +1,59 @@
-<<<<<<< HEAD
-# React + Vite
+# Durgadevi VK – MERN Full Stack Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my technical skills, projects, experience, and certifications as a MERN Full Stack Developer.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Tailwind CSS
+- Git and GitHub
 
-## React Compiler
+## 💻 Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Restaurant Reservation and Review Platform** – A platform for restaurant listings, reservations, and reviews.
+- **Movie Review App** – A React application for exploring and reviewing movies.
+- **Kanban Board** – A task management application for organizing tasks.
+- **Invoice Builder** – An application for creating and generating invoices.
 
-## Expanding the ESLint configuration
+## 🎯 About Me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# mern-portfolio
->>>>>>> 52e03b3185d845d1119652df094c36eb3db21a7d
+I am a MERN Full Stack Developer with experience in Java development and a strong interest in building responsive, user-friendly web applications. I am actively seeking opportunities to grow as a MERN Full Stack Developer.
+
+## 📂 Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/durgadevivk/mern-portfolio.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd mern-portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## 📬 Contact
+
+- **GitHub:** [durgadevivk](https://github.com/durgadevivk)
+- **Portfolio:** 
+- **LinkedIn:** www.linkedin.com/in/durgadevi-vadakalur-krishnan
+
+---
+
+Thank you for visiting my portfolio!
