@@ -6,7 +6,7 @@ const Certification = () => {
       description:
         "Completed a full-stack development program covering MongoDB, Express.js, React.js, Node.js, JavaScript, REST APIs and application development.",
       year: "2026",
-      certificateLink: "https://media.licdn.com/dms/image/v2/D5622AQE_xGCSkm9_aQ/feedshare-image-high-res/B56aCFw1CCG0AY-/0/1788950565387?e=1792022400&v=beta&t=30cZYlThoB5PRIK-eoHVOmuBmrWwTsB5AH9HQvPXIp0"
+      certificateLink: "https://drive.google.com/file/d/1LsdBni-zvvqoBVBymPMX3EBKBvNlfqYr/view?usp=sharing"
     }
   ]
 
