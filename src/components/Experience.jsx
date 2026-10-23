@@ -1,44 +1,54 @@
+
 const Experience = () => {
   return (
-    <section id="experience" className="px-6 py-20">
-
+    <section
+      id="experience"
+      className="bg-[#0B1120] px-6 py-24 sm:py-28"
+    >
       <div className="max-w-5xl mx-auto">
 
-        <h2 className="text-4xl font-bold text-center mb-4">
-          Experience
-        </h2>
+        <div className="text-center mb-14">
+          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-400 mb-3">
+            My Career Journey
+          </p>
 
-        <p className="text-center text-lg mb-12">
-          My professional experience and technical journey.
-        </p>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-5">
+            Experience
+          </h2>
+
+          <div className="w-16 h-1 bg-teal-400 rounded-full mx-auto mb-6" />
+
+          <p className="text-slate-400 text-base md:text-lg">
+            My professional experience and technical journey.
+          </p>
+        </div>
 
         <div className="space-y-8">
 
           {/* Java Development Experience */}
-          <div className="border border-gray-200 rounded-xl p-6 shadow-sm">
+          <div className="relative bg-[#111C30] border border-slate-700 rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:border-teal-400/70 hover:shadow-xl hover:shadow-teal-950/30">
 
-            <div className="flex flex-col md:flex-row md:justify-between mb-4">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-3 mb-6">
 
               <div>
-                <h3 className="text-2xl font-semibold">
-                 Team Lead
+                <h3 className="text-xl sm:text-2xl font-bold text-white">
+                  Team Lead
                 </h3>
 
-                <p className="text-lg mt-1">
+                <p className="text-lg text-teal-400 font-medium mt-2">
                   AGS Health Pvt. Ltd.
                 </p>
               </div>
 
-              <p className="text-gray-600 mt-2 md:mt-0">
+              <span className="inline-flex w-fit px-4 py-2 rounded-full bg-teal-400/10 border border-teal-400/30 text-teal-300 text-sm font-medium">
                 2015 – 2018
-              </p>
+              </span>
 
             </div>
 
-            <ul className="list-disc list-inside space-y-2 text-gray-600 leading-7">
+            <ul className="list-disc list-inside space-y-3 text-slate-300 leading-7 marker:text-teal-400">
 
               <li>
-
                 Worked on a healthcare RCM application for denial and
                 timesheet management.
               </li>
@@ -72,29 +82,28 @@ const Experience = () => {
 
           </div>
 
-
           {/* Additional Experience */}
-          <div className="border border-gray-200 rounded-xl p-6 shadow-sm">
+          <div className="relative bg-[#111C30] border border-slate-700 rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:border-teal-400/70 hover:shadow-xl hover:shadow-teal-950/30">
 
-            <div className="flex flex-col md:flex-row md:justify-between mb-4">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-3 mb-6">
 
               <div>
-                <h3 className="text-2xl font-semibold">
+                <h3 className="text-xl sm:text-2xl font-bold text-white">
                   Software / Operations Experience
                 </h3>
 
-                <p className="text-lg mt-1">
+                <p className="text-lg text-teal-400 font-medium mt-2">
                   Educom Services
                 </p>
               </div>
 
-              <p className="text-gray-600 mt-2 md:mt-0">
+              <span className="inline-flex w-fit px-4 py-2 rounded-full bg-teal-400/10 border border-teal-400/30 text-teal-300 text-sm font-medium">
                 1.2 Years
-              </p>
+              </span>
 
             </div>
 
-            <p className="text-gray-600 leading-7">
+            <p className="text-slate-300 leading-7">
               Gained professional experience in a structured
               work environment and developed strong skills in
               communication, teamwork and problem solving.
@@ -105,11 +114,8 @@ const Experience = () => {
         </div>
 
       </div>
-
     </section>
   )
 }
 
 export default Experience
-
-

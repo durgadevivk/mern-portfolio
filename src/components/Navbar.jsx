@@ -10,26 +10,26 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white z-50 border-b border-gray-200">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[#0B1120]/95 backdrop-blur-md border-b border-slate-800 shadow-lg shadow-black/10 ">
 
-      <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
 
         {/* Logo / Name */}
         <a
           href="#home"
-          className="text-xl font-bold"
+          className="text-xl font-bold tracking-wide text-teal-400 hover:text-teal-300 transition-colors duration-300"
         >
-          Durgadevi VK
+          Durgadevi VK <span className="text-slate-100">.</span>
         </a>
 
         {/* Navigation Links */}
-        <div className="flex gap-6">
+        <div className="flex items-center gap-6">
 
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="hover:text-gray-500 transition"
+              className="text-sm font-medium text-slate-300 hover:text-teal-400 transition-colors duration-300"
             >
               {link.name}
             </a>

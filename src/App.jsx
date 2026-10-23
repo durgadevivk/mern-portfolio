@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-    <>
+    <div className="min-h-screen bg-[#0B1120] text-slate-100 selection:bg-teal-400 selection:text-slate-950">
        <Navbar/>
         <main>
         <section id="home" className="min-h-screen pt-24">
@@ -26,7 +26,7 @@ function App() {
         <Certification/>
         <Contact/>
       </main>
-    </>
+    </div>
   )
 }
 
